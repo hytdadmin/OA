@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script>
+        function request(paras) {
+            var url = location.href;
+            var paraString = url.substring(url.indexOf("?") + 1, url.length).split("&");
+            var paraObj = {}
+            for (i = 0; j = paraString[i]; i++) {
+                paraObj[j.substring(0, j.indexOf("=")).toLowerCase()] = j.substring(j.indexOf("=") + 1, j.length);
+            }
+            var returnValue = paraObj[paras.toLowerCase()];
+            if (typeof (returnValue) == "undefined") {
+                return "";
+            } else {
+                return returnValue;
+            }
+        }
+        var arr = ["81", "1", "2", "3"];
+        $().ready(function () {
+            if ($.inArray(request("cid"), arr) > -1) {
+                $("#divMYD").show();
+                $("#myddc").attr("href", "http://" + request("url") + "/mydjump.aspx");
+            }
+            else {
+                $("#divMYD").hide();
+            }
+        });
+
+    </script>
+</head>
+<body style="width: 48px; height: 26px; margin: 0px;">
+    <div id="divMYD" style="width: 47px; height: 25px; margin: 0px; font-size: 12px;display:none;">
+        <a href="/mydjump.aspx" id="myddc" target="_blank">满意度</a>
+    </div>
+</body>
+</html>

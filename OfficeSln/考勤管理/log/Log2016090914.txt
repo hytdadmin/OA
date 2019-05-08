@@ -1,0 +1,9 @@
+
+2016/9/9 14:04:17--单点登录--原始用户名：81密码：杨志松 加密后用户名：cCpUnCp+WsY=密码：XDHU1ROnrcA=url编码后用户名：cCpUnCp%2bWsY%3d url编码后密码：XDHU1ROnrcA%3d
+
+
+2016/9/9 14:04:22--单点登录--原始用户名：81密码：杨志松 加密后用户名：cCpUnCp+WsY=密码：XDHU1ROnrcA=url编码后用户名：cCpUnCp%2bWsY%3d url编码后密码：XDHU1ROnrcA%3d
+
+
+2016/9/9 14:04:25--单点登录--原始用户名：81密码：杨志松 加密后用户名：cCpUnCp+WsY=密码：XDHU1ROnrcA=url编码后用户名：cCpUnCp%2bWsY%3d url编码后密码：XDHU1ROnrcA%3d
+

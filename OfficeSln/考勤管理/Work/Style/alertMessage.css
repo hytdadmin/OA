@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/*-------------------------注册协议-------------------------------*/
+#Yuyue,#Yuyue1,#Yuyue2{/*--Leo 添加新名称 0722--*/
+	width:630px;/*--Leo 修改宽度 0715--*/
+	height:435px;/*--Leo 修改高度 0715--*/
+	padding:3px;/*--Leo 修改padding 0715--*/
+	background:#e1e1e1;
+	position:relative;
+	}
+.yuyue
+{
+	width:630px;/*--Leo 修改宽度 0715--*/
+	/*height:435px;--Leo 修改高度 0715--*/
+	padding:3px;/*--Leo 修改padding 0715--*/
+	background:#e1e1e1;
+	position:relative;
+	height:auto;
+}
+#Yuyue1,#Yuyue2{/*--Leo 添加新样式 0722--*/
+	width:451px;
+	height:auto;
+	}
+
+#Yuyue .close,#Yuyue1 .close,#Yuyue2 .close{/*--Leo 添加新名称 0722--*/
+	width:29px;
+	height:29px;
+	position:absolute;
+	right:-14px;
+	top:-14px;
+	}
+	
+.yuyue .close{/*--Leo 添加新名称 0722--*/
+	width:29px;
+	height:29px;
+	position:absolute;
+	right:-14px;
+	top:-14px;
+	}
+	
+
+
+#Yuyue .alert,#Yuyue1 .alert,#Yuyue2 .alert{/*--Leo 添加新名称 0722--*/
+	/*--width:628px;Leo 修改宽度 0715--*/
+	/*_width:618px;*/ /*--Leo 删除此行 0715--*/
+	/*--height:432px;Leo 修改高度 0715--*/
+	border:1px #e1e1e1 solid;
+	margin:0 auto;
+	background:#fff;
+	}
+	
+.yuyue .alert{/*--Leo 添加新名称 0723--*/
+	/*--width:628px;Leo 修改宽度 0715--*/
+	/*_width:618px;*/ /*--Leo 删除此行 0715--*/
+	/*--height:432px;Leo 修改高度 0715--*/
+	border:1px #e1e1e1 solid;
+	margin:0 auto;
+	background:#fff;
+	}
+
+#Yuyue1 .alert，#Yuyue2 .alert{/*--Leo 添加新样式 0722--*/
+	width:449px;
+	height:auto;color:#454545;
+	}
+
+#Yuyue .alert li{
+	clear:both;
+	margin:13px 0;
+	}
+
+#Yuyue .alert li *{
+	float:left;
+	margin-right:10px;
+	}
+
+#Yuyue .alert li p.gray,#Yuyue .alert li p.gray1,#Yuyue .alert li p.note{
+	display:block;
+	width:210px;
+	height:25px;
+	line-height:25px;
+	text-align:right;
+	}
+
+#Yuyue .alert li p.gray1{
+	width:450px;
+	text-align:left;
+	line-height:18px;
+	}
+
+#Yuyue .alert li input,#Yuyue .alert li select{
+	display:block;
+	width:214px;
+	height:23px;
+	line-height:25px;
+	border:1px #ccc solid;
+	}
+
+#Yuyue .alert li input.sex{
+	display:block;
+	width:20px;
+	height:20px;
+	border:0;
+	margin:2px 0 0 0;
+	}
+
+#Yuyue .alert li textarea{
+	display:block;
+	width:214px;
+	height:98px;
+	line-height:22px;
+	border:1px #ccc solid;
+	}
+
+#Yuyue .alert li .sure{
+	display:block;
+	width:74px;
+	height:24px;
+	border:0;
+	}
+
+#Yuyue .alert li span{
+	margin:4px 15px 0 0;
+	}
+
+#Yuyue .alert li lable.note{
+	width:300px;
+	text-align:left;
+	background:url(../images/ico2.gif) no-repeat 0 4px;
+	padding-left:16px;
+	line-height:22px;
+	color:#da3425;
+	display:;
+	}
+
+/*--Leo 添加样式 0712 开始--*/
+#Yuyue h2.reg_c{
+	display:block;
+	width:203px;
+	height:100px;
+	padding-top:53px;
+	background:url(../images/reg_com_bg.gif) no-repeat;
+	margin:0 auto;
+	font-family:"微软雅黑";
+	color:#fff;
+	}
+
+#Yuyue .redir{
+	width:330px;
+	height:auto;
+	margin:0 auto;
+	}
+
+#Yuyue .redir h4{
+	font-family:"微软雅黑";
+	}
+
+#Yuyue .redir .btn_sure_3{
+	margin-top:0px;
+	}
+/*--Leo 添加样式 0712 结束--*/
+
+
+
+
+
+
+.ui-dialog-titlebar
+{
+    display:none!important;
+}

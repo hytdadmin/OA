@@ -1,0 +1,58 @@
+﻿<script type="text/javascript">
+
+    $(document).ready(function () {
+        //ctrl+enter发表说说
+        $('#txtSay').keypress(function (e) {
+            if (e.ctrlKey && e.which == 13 || e.which == 10) {
+                publishSayDiv();
+            }
+        });
+    });
+    //添加表情到文本框
+    function setExpressionVal(str) {
+        $("#txtSay").val($("#txtSay").val() + str);
+        setTextareaLength("txtSay", "spanSayLenth", 50);
+        moveEnd(document.getElementById("txtSay"));
+        showExpDiv("none");
+    }
+    //光标移动到文本框最后
+    function moveEnd(obj) {
+        obj.focus();
+        var len = obj.value.length;
+        if (document.selection) {
+            var sel = obj.createTextRange();
+            sel.moveStart('character', len);
+            sel.collapse();
+            sel.select();
+        } else if (typeof obj.selectionStart == 'number' && typeof obj.selectionEnd == 'number') {
+            obj.selectionStart = obj.selectionEnd = len;
+        }
+    }
+    // 获得事件Event对象，用于兼容IE和FireFox  
+    function getEvent() {
+        return window.event || arguments.callee.caller.arguments[0];
+    }
+
+    //显示表情框
+    function showExpDiv(dis) {
+        var event = getEvent();
+        if (dis == "none")
+            return;
+        $.get("/Work/UserControl/Expression.ashx", { typeId: 1, PicType: "getPic" }, function (result) {
+            $("#ExpressionShow").html(result);
+            $("#ExpressionShow").css("display", dis);
+            $("#ExpressionShow").css("left", document.body.scrollLeft + $("#SD_body").offset().left + 30 + "px");
+            $("#ExpressionShow").css("top", document.body.scrollTop + $("#SD_body").offset().top + 158 + "px");
+        });
+    }
+    //         document.onmousedown = ExpressionShowDiv;  
+</script>
+<div class="divSayAlert" id="divSayAlert">
+    <div class="divText">
+        <textarea id="txtSay" class="text" onkeyup="setTextareaLength(this.id,'spanSayLenth',50)"></textarea>
+    </div>
+    <a href="javascript:publishSayDiv()" class="aright">
+        <img src='/Work/images/send.jpg' /></a><div class="skpe">
+            <span class="span"><a href="javascript:showExpDiv('block')" id="apic">
+                <img src="../../Image/Expression/bq.jpg" /></a> 还可以输入<span id="spanSayLenth">50</span>字</span></div>
+</div>

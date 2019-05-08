@@ -1,0 +1,6 @@
+
+2016/2/3 16:43:21--单点登录--原始用户名：16密码：刘延辉 加密后用户名：sQ7KwBqHwYI=密码：wrm5gjFDqdY=url编码后用户名：sQ7KwBqHwYI%3d url编码后密码：wrm5gjFDqdY%3d
+
+
+2016/2/3 16:43:25--单点登录--原始用户名：16密码：刘延辉 加密后用户名：sQ7KwBqHwYI=密码：wrm5gjFDqdY=url编码后用户名：sQ7KwBqHwYI%3d url编码后密码：wrm5gjFDqdY%3d
+

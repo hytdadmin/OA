@@ -1,0 +1,3 @@
+服务器拒绝了一个或多个收件人地址。服务器响应为: 550 5.7.1 Unable to relay
+System.Collections.ListDictionaryInternal   在 CDO.MessageClass.Send()
+   在 CallCenter_SendEmail.sendMail(String mailTo, String strToName, String mailCC, String mailBCC, String strTitle, String strBody, String strFilesPath) 位置 d:\hytd\考勤管理\公司内网\OfficeSln.root\OfficeSln\考勤管理\CallCenter\SendEmail.aspx.cs:行号 138Void Send()

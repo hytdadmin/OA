@@ -1,0 +1,140 @@
+/*------------------ycw begin---------------------------*/
+.start{width:13px;height:13px;cursor:pointer;background-repeat:no-repeat;}
+        .empty{background-image:url(../images/star/arrowOff.gif)}
+        .fill{background-image:url(../images/star/arrowOn.gif)}
+         .wait{background-image:url(../images/star/arrowOn.gif)}
+         .pltext1{
+	width:96%;
+	height:auto;
+	line-height:18px;
+	margin-top:10px;
+	}
+	.pltext1 li *{
+	float:left;
+	}
+    .pltext1 li p{
+	display:block;
+	width:40px;
+	height:auto;
+	}
+    .pltext1 li textarea{
+	display:block;
+	width:870px;
+	height:100px;
+	border:1px #ccc solid;
+	overflow:auto;
+	}
+	.pltext1 .cl{
+	margin-bottom:10px;
+	}
+	
+	
+	.btnSubmit
+	{
+	    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    display:block;
+	width:38px;
+	line-height:20px;
+	text-align:center;
+	background:url(../images/btn_sure_1.gif) no-repeat;
+	color:#fff;   
+	margin:0;
+	padding:0; 
+	    
+	}
+	
+	.btnCode
+	{
+	    width:74px;
+	height:24px;
+	line-height:24px;
+	background:url(../images/btn_sure_2.gif) no-repeat;
+	color:#fff;	
+	border:0;
+	padding:0;
+	margin:0;
+	}
+	
+	
+	.btnCode1
+	{
+	    width:89px;
+	height:24px;
+	line-height:24px;
+	background:url(../images/btn_sure_4.gif) no-repeat;
+	color:#fff;	
+	border:0;
+	padding:0;
+	margin:0;
+	}
+/*------------------ycw end---------------------------*/	
+
+/*------------------zsy begin---------------------------*/	
+	
+.autocomplete_completionListElement   
+{     
+visibility   :   hidden; 
+margin   :   0px!important; 
+background-color:#FFF; 
+color   :   windowtext; 
+border   :   buttonshadow; 
+border-width   :   1px; 
+border-style   :   solid; 
+cursor   :   'default '; 
+overflow   :   auto; 
+text-align   :   left;
+list-style-type   :   none; 
+border-top:none;
+z-index:10000;
+} 
+
+/*   AutoComplete   highlighted   item   */ 
+
+.autocomplete_highlightedListItem 
+{ 
+background-color:   #e9f5f7; 
+color:   black; 
+padding:   1px; 
+border-top:none;
+} 
+
+/*   AutoComplete   item   */ 
+
+.autocomplete_listItem   
+{ 
+background-color   :   window; 
+color   :   windowtext; 
+padding   :   1px;
+} 
+
+
+/*------------------zsy end---------------------------*/	
+
+
+.bgcss
+    {
+      background-color:Gray;
+      filter:alpha(opacity=70);
+      opacity:0.7;    
+    }
+    
+    
+.btnFavorite
+{
+    display:block;
+	width:124px;
+	height:34px;
+	overflow:hidden;
+	background:url(../images/bg_btn.gif) no-repeat;
+	line-height:34px;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	border:0;
+	padding:0;
+	margin:0;
+	font-size:14px;
+    
+}

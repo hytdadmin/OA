@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{12DB77DB-5DBE-44AC-B144-83B6BE88AD67}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F9738A85-7B58-41A0-8A53-589CDA6677AD} = {F9738A85-7B58-41A0-8A53-589CDA6677AD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{F9738A85-7B58-41A0-8A53-589CDA6677AD}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "考勤管理", "考勤管理", "{06002BA2-5DB2-4267-9296-E4FD177118DC}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/考勤管理/呼叫中心升级/OfficeSln", DROGAAAA"
+		SccAuxPath = ""
+		SccLocalPath = ".."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{12DB77DB-5DBE-44AC-B144-83B6BE88AD67}|DAL.dll;{F9738A85-7B58-41A0-8A53-589CDA6677AD}|Models.dll;{73284926-4357-41F8-B364-92077FC756BF}|BLL.dll;{67002E91-6894-454F-8509-EB0021EF14F6}|DBUtility.dll;{66F0AB63-D623-402A-8FF0-9A177D36E41C}|HYTD.Common.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/考勤管理"
+		Debug.AspNetCompiler.PhysicalPath = "考勤管理\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\考勤管理\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/考勤管理"
+		Release.AspNetCompiler.PhysicalPath = "考勤管理\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\考勤管理\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59843"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{73284926-4357-41F8-B364-92077FC756BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBUtility", "DBUtility\DBUtility.csproj", "{67002E91-6894-454F-8509-EB0021EF14F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYTD.Common", "HYTD.Common\HYTD.Common.csproj", "{66F0AB63-D623-402A-8FF0-9A177D36E41C}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccWebProject0 = true
+		SccProjectUniqueName0 = 考勤管理
+		SccProjectName0 = \u0022$/考勤管理/呼叫中心升级/OfficeSln\u0022,\u0020DROGAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection0 = 考勤管理\\
+		SccProjectEnlistmentChoice0 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12DB77DB-5DBE-44AC-B144-83B6BE88AD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DB77DB-5DBE-44AC-B144-83B6BE88AD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DB77DB-5DBE-44AC-B144-83B6BE88AD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DB77DB-5DBE-44AC-B144-83B6BE88AD67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9738A85-7B58-41A0-8A53-589CDA6677AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9738A85-7B58-41A0-8A53-589CDA6677AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9738A85-7B58-41A0-8A53-589CDA6677AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9738A85-7B58-41A0-8A53-589CDA6677AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06002BA2-5DB2-4267-9296-E4FD177118DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06002BA2-5DB2-4267-9296-E4FD177118DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06002BA2-5DB2-4267-9296-E4FD177118DC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{06002BA2-5DB2-4267-9296-E4FD177118DC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{73284926-4357-41F8-B364-92077FC756BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73284926-4357-41F8-B364-92077FC756BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73284926-4357-41F8-B364-92077FC756BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73284926-4357-41F8-B364-92077FC756BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67002E91-6894-454F-8509-EB0021EF14F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67002E91-6894-454F-8509-EB0021EF14F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67002E91-6894-454F-8509-EB0021EF14F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67002E91-6894-454F-8509-EB0021EF14F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F0AB63-D623-402A-8FF0-9A177D36E41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F0AB63-D623-402A-8FF0-9A177D36E41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F0AB63-D623-402A-8FF0-9A177D36E41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F0AB63-D623-402A-8FF0-9A177D36E41C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

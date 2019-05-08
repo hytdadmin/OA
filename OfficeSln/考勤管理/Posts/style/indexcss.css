@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+img{border:none;}
+ul,li,h1,h2,h3,h4,h5,p,dl,dd{margin:0;padding:0;list-style:none;}
+.clear{clear:both;}
+a{color:#828282;text-decoration:none;}
+a:hover{text-decoration:underline;}
+div{word-wrap: break-word;word-break: break-all;}
+
+.nav{width:100%;height:40px;background:url(/Work/images/nav_bg.jpg) repeat-x;}
+.nav ul{height:40px;width: 1180px;margin: 0px auto;}
+.nav li{float: left;text-align:center;line-height:40px; font-family:'楷体';font-size: 18px; color:#FFF; padding:0px 12px;height:40px;display:inline-block;background:url(/Work/images/nav_line.jpg) right no-repeat;}
+.nav li a{color:white;display:block;width:120px;height:40px;text-align:center;font-family:'楷体';font-size: 18px;}
+.nav a:hover{color:white;text-decoration:none;background:url(/Work/images/nav_s_bg.jpg) repeat-x;}
+.nav_line{width:2px;height:50px;background:url(/Work/images/nav_line.jpg) no-repeat;float:right;overflow:hidden;}
+.nav li.nav_select{font-weight:bold;}
+.nav li.nav_select a{color:#005d98;background:url(/Work/images/nav_s_bg.jpg) no-repeat;}
+.nav_loginname{font-family: 楷体;font-size: 13px;font-weight: normal;font-style: normal;text-decoration: none;color: #0A8CD2;}
+
+.W_main{ clear:both; overflow:hidden;}
+.W_main{width: 1000px; margin:0px auto; padding-top: 15px;}
+
+.W_main_left{width:280px; background-color:#E6F0F7;float: left;position: relative;z-index: 0;}
+.W_main_right{float: left;width: 720px;position: relative;overflow: hidden;z-index: 0; background-color: #ffffff;}
+
+
+
+/*返回到顶部*/
+	#back-to-top{
+		position:fixed;
+		bottom:100px;
+		left:60px;
+		display:none;
+	}
+	#back-to-top a{
+		text-align:center;
+		text-decoration:none;
+		color:#B9B9C2;
+		display:block;
+		width:80px;
+		/*使用CSS3中的transition属性给跳转链接中的文字添加渐变效果*/
+		-moz-transition:color 1s; 
+		-webkit-transition:color 1s;
+		-o-transition:color 1s;
+	}
+	#back-to-top a:hover{
+		color:#979797;
+	}
+	
+.footer
+{
+    font-size: 12px;
+    color: rgb(151, 151, 149);
+    text-decoration: none;
+    padding: 46px 0 0 80px;
+}
+/*底部*/
+.bottomcssNew
+{
+    background: url(../../images/index_102.jpg) no-repeat scroll 0% 0% transparent;
+    background-color: #FFFFFF;
+    height: 109px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+}
+
+
+
+
+
+

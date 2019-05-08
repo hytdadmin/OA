@@ -1,0 +1,1 @@
+document.write('<a href=http://www.photofans.cn/banner/e32.php target=_blank><img src=http://www.photofans.cn/banner/e32.gif border=0 width=960 height=70></a>');

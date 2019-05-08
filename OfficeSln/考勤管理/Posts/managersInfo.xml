@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<managers>
+  <item>
+    <SuperAdminList>16|32</SuperAdminList>
+  </item>
+  <item>
+    <AdminList>|16</AdminList>
+  </item>
+  <item>
+    <AdminListNoDelete>
+    </AdminListNoDelete>
+  </item>
+  <item>
+    <FeedbackList>16|Administrator1|fankui|Administrator</FeedbackList>
+  </item>
+  <item>
+    <FeedbackListNoDelete>
+    </FeedbackListNoDelete>
+  </item>
+</managers>

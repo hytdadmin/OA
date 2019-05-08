@@ -1,0 +1,30 @@
+/* CSS Document */
+@charset "utf-8";
+body {MARGIN: 0 auto; PADDING:0px; font-family:Arial, Helvetica, sans-serif; margin-left:0px; margin-top:0px; color:#666; font-size:12px;}
+div,form,p,img,ul,ol,li,dl,dt,dd {margin:0px; padding:0px; list-style:none; color:#666; font-family:Arial, Helvetica, sans-serif;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;}
+table,td,tr,th{margin: 0; padding: 0; color:#666; font-family:Arial, Helvetica, sans-serif;}
+img { vertical-align:top;}
+*{ margin:0px; padding:0px;}
+.fl{ float:left;}
+.clb { clear:both;}
+
+/* = 首页
+-------------------------------------------------------------*/
+.content { width:1003px; margin:0 auto; padding-top:280px;}
+.content_all { width:1003px; background:url(../images/index_03.jpg);}
+.logo { width:454px; height:172px; float:left;}
+.content_input { width:268px; float:left; padding-top:32px;}
+.content_input li{ width:268px; height:26px; float:left; margin-bottom:14px;}
+.content_input li span { color:#fff; font-weight:bold;}
+.content_input li img { vertical-align:middle; margin-left:5px;}
+.input { width:203px; height:24px; background:#fff; color:#000; margin-left:12px; border:1px solid #afafaf; line-height:26px; vertical-align:middle;}
+.input_code { width:146px; height:24px; background:#fff; color:#000; margin-left:12px; border:1px solid #afafaf; line-height:26px; vertical-align:middle;}
+.content_input_menu { width:77px; float:left; padding-top:72px; margin-left:36px;}
+
+
+
+.lg_input1_1 { width:203px; height:24px; background:#fff; color:#A9A9A9; margin-left:12px; border:1px solid #afafaf; line-height:26px; vertical-align:middle;}
+.lg_input1_2{ width:203px; height:24px; background:#D3D3D3; color:#A9A9A9; margin-left:12px; border:1px solid red; line-height:26px; vertical-align:middle;}
+.lgCode_input1_1{ width:146px; height:24px; background:#fff; color:#A9A9A9; margin-left:12px; border:1px solid #afafaf; line-height:26px; vertical-align:middle;}
+.lgCode_input1_2{ width:146px; height:24px; background:#D3D3D3; color:#A9A9A9; margin-left:12px; border:1px solid red; line-height:26px; vertical-align:middle;}

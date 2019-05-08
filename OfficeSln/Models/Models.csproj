@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9738A85-7B58-41A0-8A53-589CDA6677AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Models</RootNamespace>
+    <AssemblyName>Models</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attendance.cs">
+      <DependentUpon>Attendance.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Attendance.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="TO\ActiveProductInfo.TO.cs" />
+    <Compile Include="TO\ActiveSuccessfullProductInfo.TO.cs" />
+    <Compile Include="TO\BbsTo\Category.TO.cs" />
+    <Compile Include="TO\BbsTo\Posts.TO.cs" />
+    <Compile Include="TO\BbsTo\RePosts.TO.cs" />
+    <Compile Include="TO\BbsTo\SensitiveWords.TO.cs" />
+    <Compile Include="TO\BbsTo\User.TO.cs" />
+    <Compile Include="TO\Call_Category.TO.cs" />
+    <Compile Include="TO\Call_Customer.TO.cs" />
+    <Compile Include="TO\Call_FAQList.TO.cs" />
+    <Compile Include="TO\Call_Satisfaction.TO.cs" />
+    <Compile Include="TO\Call_SatisfactionNew.TO.cs" />
+    <Compile Include="TO\Call_Satisfaction_Item.TO.cs" />
+    <Compile Include="TO\Call_VisitBill.TO.cs" />
+    <Compile Include="TO\Call_WorkBill.TO.cs" />
+    <Compile Include="TO\Call_WorkBillHistory.TO.cs" />
+    <Compile Include="TO\VideoCategory.cs" />
+    <Compile Include="TO\FeedbackTO.cs" />
+    <Compile Include="TO\HolidaysTO.cs" />
+    <Compile Include="TO\Logs.TO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Result\BulletinDetailResult.cs" />
+    <Compile Include="Result\SayListResult.cs" />
+    <Compile Include="TO\AdminTable.TO.cs" />
+    <Compile Include="TO\AttendanceDetail.TO.cs" />
+    <Compile Include="TO\AttendanceList.TO.cs" />
+    <Compile Include="TO\Bulletin.TO.cs" />
+    <Compile Include="TO\Department.TO.cs" />
+    <Compile Include="TO\DownloadCenter.TO.cs" />
+    <Compile Include="TO\Journal.TO.cs" />
+    <Compile Include="TO\Position.TO.cs" />
+    <Compile Include="TO\ReplyMessage.TO.cs" />
+    <Compile Include="TO\Say.TO.cs" />
+    <Compile Include="TO\SayList.cs" />
+    <Compile Include="TO\UserInfo.TO.cs" />
+    <Compile Include="TO\Video.cs" />
+    <Compile Include="TO\DepartmentUserInfoViewModel.cs" />
+    <Compile Include="TO\VideoManageUserInfoAssignViewModel.cs" />
+    <Compile Include="TO\VideoManageUserInfoViewModel.cs" />
+    <Compile Include="TO\VideosTo.cs" />
+    <Compile Include="TO\VisitTb.TO.cs" />
+    <Compile Include="UserInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Attendance.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Attendance.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Attendance.dbml.layout">
+      <DependentUpon>Attendance.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
